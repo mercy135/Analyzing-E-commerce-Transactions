@@ -88,7 +88,7 @@ cohort_data = final_df.pivot_table(
 cohort_data
 
 
-
+# --- WRITE YOUR CODE FOR TASK 8 ---
 # Calculate 'cohort_percentage' by dividing each value by the values in the first column
 cohort_percentage = cohort_data.divide(cohort_data.iloc[:, 0], axis=0)
 
